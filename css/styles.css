@@ -217,7 +217,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
-  background-color: var(--accent-color);
+  background-color: #188CE8;
 }
 
 /* ANDVANTAGES */
@@ -577,7 +577,7 @@ body {
 
 .signup-btn:hover,
 .signup-btn:focus {
-  background-color: var(--accent-color);
+  background-color: #188CE8;
 }
 
 .icon-send {
@@ -837,7 +837,7 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
   color: var(--primary-title-color);
-  background-color: var(--accent-color);
+  background-color: #188CE8;
 }
 
 .input-wraper {
@@ -863,6 +863,11 @@ body {
 .icon-close {
   fill: #000000;
 }
+.modal-checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .check-text{
   font-size: 14px;
@@ -875,8 +880,8 @@ body {
 .check-text span{
   width: 16px;
   height: 15px;
-  border: 3px solid var(--secondary-title-color);
-  border: 2px;
+  border: 1px solid var(--secondary-title-color);
+  border-radius: 2px;
   margin-right: 8px;
   display: flex;
   align-items: center;
