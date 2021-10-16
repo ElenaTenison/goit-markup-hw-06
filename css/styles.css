@@ -863,6 +863,7 @@ body {
 .icon-close {
   fill: #000000;
 }
+
 .icon-close:focus,
 .icon-close:hover{
 fill: var(--accent-color);
