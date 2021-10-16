@@ -860,7 +860,6 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  color: var(--primary-title-color);
   background-color: #188ce8;
 }
 
