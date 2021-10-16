@@ -769,7 +769,17 @@ body {
   background-color: transparent;
   padding: 12px;
   padding-left: 42px;
+  outline: none;
 }
+
+.modal-input:focus{
+  border-color: var(--accent-color);
+}
+
+.modal-input:focus + .icon-input{
+  fill: var(--accent-color);
+}
+
 
 .modal-input-text {
   width: 100%;
@@ -831,6 +841,8 @@ body {
   transform: translateY(-50%);
   fill: var(--secondary-title-color;
 }
+
+.
 
 
 .close-btn {
