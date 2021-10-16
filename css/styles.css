@@ -823,6 +823,19 @@ body {
   border-color: var(--accent-color);
 }
 
+.icon-input {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: var(--secondary-title-color);
+}
+
+.icon-input:hover,
+.icon-input:focus {
+  fill: var(--accent-color);
+}
+
 .modal-btn {
   padding: 10px 56px;
   display: block;
@@ -903,6 +916,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .modal-checkbox:checked + .check-text span {
   background-color: var(--accent-color);
   border: none;
@@ -911,16 +925,4 @@ body {
 .check-link {
   color: var(--accent-color);
   margin-left: 5px;
-}
-
-.icon-input:hover,
-.icon-input:focus {
-  fill: var(--accent-color);
-}
-.icon-input {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  fill: var(--secondary-title-color);
 }
