@@ -755,6 +755,15 @@ body {
   margin-bottom: 12px;
 }
 
+.form-input{
+  cursor: pointer;
+}
+
+.form-input:hover,
+.form-input:focus{
+  border-color: var(--primary-title-color);
+}
+
 .input-label {
   font-size: 12px;
   line-height: 1.17;
@@ -763,9 +772,6 @@ body {
   display: block;
   margin-bottom: 4px;
 }
-
-
-
 
 .modal-input {
   width: 100%;
