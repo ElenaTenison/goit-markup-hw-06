@@ -402,21 +402,36 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form action="#" class="modal-form">
                 <div class="modal-field">
-                    <label for="user-name">Имя</label>
-                    <input type="text" name="user-name" id="user-name" class="modal-input">
-                </div>
+                    <label for="user-name" class="input-label">Имя</label>
+                    <input 
+                    type="name" 
+                    name="user-name" 
+                    id="user-name" 
+                    class="modal-input"></div>
                 <div class="modal-field">
-                    <label for="user-tel">Телефон</label>
-                    <input type="text" name="user-tel" id="user-tel" class="modal-input">
-                </div>
+                    <label for="user-tel" class="input-label">Телефон</label>
+                    <input 
+                    type="tel" 
+                    name="user-tel" 
+                    id="user-tel" 
+                    class="modal-input"></div>
                 <div class="modal-field">
-                    <label for="user-email">Почта</label>
-                    <input type="text" name="user-email" id="user-email" class="modal-input">
-                </div>
+                    <label for="user-email" class="input-label">Почта</label>
+                    <input 
+                    type="email" 
+                    name="user-email" 
+                    id="user-email" 
+                    class="modal-input"></div>
                 <div class="modal-field">
-                    <label for="user-coment">Комментарий</label>
-                    <input type="text" name="user-coment" id="user-coment" class="modal-input" placeholder="Введите текст">
+                    <label for="user-coment" class="input-label">Комментарий</label>
+                    <textarea 
+                    name="user-text" 
+                    id="user-text"
+                    class="modal-input-text"
+                    placeholder="Введите текст"></textarea>
                 </div>
+
+                <button type="submit" class="modal-btn">Отправить</button>
             </form>
         </div>
     </div>
