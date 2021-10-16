@@ -831,11 +831,6 @@ body {
   fill: var(--secondary-title-color);
 }
 
-.icon-input:hover,
-.icon-input:focus {
-  fill: var(--accent-color);
-}
-
 .modal-btn {
   padding: 10px 56px;
   display: block;
