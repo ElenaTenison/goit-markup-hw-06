@@ -217,7 +217,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 /* ANDVANTAGES */
@@ -550,7 +550,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input::placeholder{
+.form-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -577,7 +577,7 @@ body {
 
 .signup-btn:hover,
 .signup-btn:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .icon-send {
@@ -755,12 +755,12 @@ body {
   margin-bottom: 12px;
 }
 
-.form-input{
+.form-input {
   cursor: pointer;
 }
 
 .form-input:hover,
-.form-input:focus{
+.form-input:focus {
   border-color: var(--primary-title-color);
 }
 
@@ -788,14 +788,13 @@ body {
 }
 
 .modal-input:hover,
-.modal-input:focus{
+.modal-input:focus {
   border-color: var(--accent-color);
 }
 
-.modal-input:focus + .icon-input{
+.modal-input:focus + .icon-input {
   fill: var(--accent-color);
 }
-
 
 .modal-input-text {
   width: 100%;
@@ -820,7 +819,7 @@ body {
 }
 
 .modal-input-text:hover,
-.modal-input-text:focus{
+.modal-input-text:focus {
   border-color: var(--accent-color);
 }
 
@@ -849,14 +848,13 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
   color: var(--primary-title-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .input-wraper {
   display: block;
   position: relative;
 }
-
 
 .close-btn {
   position: absolute;
@@ -878,12 +876,11 @@ body {
 }
 
 .icon-close:focus,
-.icon-close:hover{
-fill: var(--accent-color);
+.icon-close:hover {
+  fill: var(--accent-color);
 }
 
-
-.check-text{
+.check-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
@@ -896,7 +893,7 @@ fill: var(--accent-color);
   cursor: pointer;
 }
 
-.check-text span{
+.check-text span {
   width: 16px;
   height: 15px;
   border: 1px solid var(--secondary-title-color);
@@ -906,22 +903,24 @@ fill: var(--accent-color);
   align-items: center;
   justify-content: center;
 }
-.modal-checkbox:checked + .check-text span{
+.modal-checkbox:checked + .check-text span {
   background-color: var(--accent-color);
   border: none;
 }
 
-.check-link{
+.check-link {
   color: var(--accent-color);
   margin-left: 5px;
 }
 
-.icon-input{
+.icon-input:hover,
+.icon-input:focus {
+  fill: var(--accent-color);
+}
+.icon-input {
   position: absolute;
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
-  fill: var(--secondary-title-color;
+  fill: var(--secondary-title-color);
 }
-
-
