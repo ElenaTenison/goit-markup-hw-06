@@ -924,6 +924,10 @@ body {
   border: none;
 }
 
+.modal-checkbox:hover {
+  border: var(--accent-color);
+}
+
 .check-link {
   color: var(--accent-color);
   margin-left: 5px;
