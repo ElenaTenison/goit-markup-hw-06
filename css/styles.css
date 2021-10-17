@@ -797,6 +797,7 @@ body {
   border-color: var(--accent-color);
 }
 
+.modal-input:hover + .icon-input,
 .modal-input:focus + .icon-input {
   fill: var(--accent-color);
 }
@@ -834,11 +835,6 @@ body {
 .modal-input-text:hover,
 .modal-input-text:focus {
   border-color: var(--accent-color);
-}
-
-.icon-input:hover,
-.icon-input:hover {
-  fill: var(--accent-color);
 }
 
 .modal-btn {
