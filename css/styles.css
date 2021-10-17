@@ -819,6 +819,14 @@ body {
   cursor: pointer;
 }
 
+.icon-input {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: var(--secondary-title-color);
+}
+
 .modal-input-text::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
@@ -828,12 +836,9 @@ body {
   border-color: var(--accent-color);
 }
 
-.icon-input {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  fill: var(--secondary-title-color);
+.icon-input:hover,
+.icon-input:hover {
+  fill: var(--accent-color);
 }
 
 .modal-btn {
