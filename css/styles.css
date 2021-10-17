@@ -593,8 +593,8 @@ body {
   margin-left: 10px;
 }
 
-.signup-btn:hover,
-.signup-btn:focus {
+.singup-btn:hover,
+.singup-btn:focus {
   background-color: #188ce8;
 }
 
