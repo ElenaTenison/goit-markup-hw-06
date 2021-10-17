@@ -490,7 +490,11 @@ body {
   align-items: baseline;
 }
 
-.footer-contact:not(last-child) {
+.footer-contact:last-child {
+  margin-left: auto;
+}
+
+.footer-contact:not(:last-child) {
   margin-right: 70px;
 }
 
